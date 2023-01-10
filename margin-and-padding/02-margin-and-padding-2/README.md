@@ -1,18 +1,63 @@
-# Margin and Padding #2
+# The Odin Project - Margin and Padding 2
 
-This one is a little nicer looking, and a little closer to something you might see in the real world. You'll need to change a little more than just margin and padding to make it look exactly right.
+This is a solution to the [Margin and Padding exercise No. 2 of Foundations](https://github.com/TheOdinProject/css-exercises).
 
-## Desired outcome
-![desired outcome](./desired-outcome.png)
+## Table of contents
 
-### Self Check
-Use this section to check your work. On _these_ projects, your goal isn't to attain 100% pixel perfection, but to use the tools you've learned to get relatively close to the desired output.
+- [Overview](#overview)
+  - [Outcome](#outcome)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-- There is 8px between the edge of the card and its content (the blue sections).
-- There is an 8px gap between each of the blue sections inside the card.
-- The title of the card uses a 16px font.
-- There are 8px between the title text and the edge of the title section.
-- The content section has 16px space on the top and bottom, and 8px on either side.
-- Everything inside the `.button-container` section is centered, and there is 8px padding.
-- The Big Button is centered on its own line.
-- The Big Button has 24px space on the sides, and 8px on top and bottom.
+## Overview
+
+### Outcome
+
+![Margin and Padding 2 outcome](./desired-outcome.png "Margin and Padding 2")
+
+### Links
+
+- Solution URL: [Margin and Padding 2 solution](https://github.com/jugglingdev/css-exercises/tree/main/margin-and-padding/02-margin-and-padding-2)
+
+## My process
+
+### Built with
+
+- HTML5
+- CSS
+
+### What I learned
+
+This exercise was a step up from Margin and Padding 1.  In it, I had to change the padding and margin of different elements as well as use `text-align: center` and `display: block`. 
+
+A few margins had to be side specific, utilizing `margin-top` and `margin-bottom`, for example.  This was because the padding of the `card <div>` would get added to the margin of the inside elements if you weren't careful (totally missed that at first).  There's margin collapse, but not padding-margin collapse.
+
+For the `button-container`, I actually first used a `<br>` to kick the button to the next line.  The solution set the button to `display: block` instead.  In context, that does make more sense.
+
+### Continued development
+
+In future projects, I'd like more experience changing inline elements to block elements.  It will be interesting to see all the cases where this attribute change is needed.
+
+### Useful resources
+
+- [MDN Display](https://developer.mozilla.org/en-US/docs/Web/CSS/display) - Quick demonstration of different `display` types.
+
+## Author
+
+- GitHub - [@jugglingdev](https://github.com/jugglingdev)
+
+- freeCodeCamp - [@jugglingdev](https://www.freecodecamp.org/jugglingdev)
+
+- Frontend Mentor - [@jugglingdev](https://www.frontendmentor.io/profile/jugglingdev)
+
+- LinkedIn - [Kayla Paden](https://www.linkedin.com/in/kayla-marie-paden)
+
+## Acknowledgments
+
+Shoutout to The Odin Project and all the contributors for their awesome work in building a solid curriculum for backend development.
