@@ -1,6 +1,6 @@
 # The Odin Project - Margin and Padding 1
 
-This is a solution to the [Margin and Padding exercise No. 1 of The Odin Project](https://github.com/TheOdinProject/css-exercises).
+This is a solution to the [Margin and Padding exercise No. 1 of Foundations](https://github.com/TheOdinProject/css-exercises).
 
 ## Table of contents
 
